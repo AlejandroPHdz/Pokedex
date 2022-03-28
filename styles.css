@@ -1,0 +1,70 @@
+form {
+    width: 200px;
+    margin: 40px relative;
+    position: relative;
+    top: 500px; left: 120px;
+}
+
+input {
+    width: 65%;
+    padding: 20px;
+    background-color: transparent;
+    border:transparent
+}
+
+body {
+   
+    background-image: url(pokedex.png);
+    background-repeat: no-repeat;
+    
+   
+}
+
+.poke-img {
+    position: absolute;
+    top:110px; left:75px;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 100px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+    margin: 0 sticky;
+    border: transparent;
+}
+
+.poke-card {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    top: 230px;; left:560px;
+    max-width: 150px;
+    border-radius: 4px;
+    color: #ffeb3b ;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: transparent;
+    height: 70; 
+    scrollbar-width: none;
+    overflow: auto; 
+}
+
+.poke-num {
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    top: 520px;; left:540px;
+    max-width: 150px;
+    border-radius: 4px;
+    color: #ffeb3b ;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: transparent;
+    height: 70; 
+    scrollbar-width: none;
+    overflow: auto; 
+}
+
